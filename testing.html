@@ -1,8 +1,28 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World!</h1>
-<p>One day this might actually work</p>
-<img src="cat.jpg">
-</body>
-</html>
+<head>
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<div class="arial"><p><font size="+6">Touch&Go</font></p></div>
+<br>
+<div class="other"><p><font size="+2">Data display</font></p></div>
+
+<script type = "text/javascript">
+        function pic1()
+        {
+            document.getElementById("img").src ="stepPlot.png"
+        }
+        function pic2()
+        {
+            document.getElementById("img").src ="stairPlot.png"
+        } </script>
+
+
+
+
+
+    <img src = "loading1.gif" id = "img" height="300" width="500"/> <input type="button" value="Show steps taken" onclick="pic1()"/> <input type="button" value="Show stairs climbed"
+    onclick="pic2()"/>
+
+<br>
+<div class="other2"><p><font size="+1">Text box here in case we need it at some point</font></p></div>
